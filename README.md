@@ -18,6 +18,6 @@ The application provide user-friendly interface. Users can conveniently input te
 
 ## Technologies Used:
 
-1: HTML:
-2: Cascading Style Sheets (CSS):
-3: JavaScript:
+#### 1: HTML:
+#### 2: Cascading Style Sheets (CSS):
+#### 3: JavaScript:
