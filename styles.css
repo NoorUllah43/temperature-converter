@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(156, 255, 250);
+}
+nav{
+    height: 50px;
+    background-color: rgb(172, 243, 157);
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 10px;
+    padding: 5px;
+}
+
+/* nav ul li:hover{
+    background-color: aqua;
+} */
+
+nav ul li a{
+    color: rgb(232, 95, 92);
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+nav ul li a i{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    width: 80%;
+    color: rgb(232, 95, 92);
+    margin-bottom: 40px;
+}
+.con{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+.cen-d{
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    left: 450px;
+    top: 200px; */
+
+}   
+
+.con-btn{
+    width: auto;
+    padding: 7px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(172, 243, 157);
+    color: rgb(232, 95, 92);
+    font-size: large;
+    font-weight: bold;
+}
+.con-btn:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+    background-color: rgb(119, 51, 68);
+    border: 2px solid greenyellow;
+}
+.input{
+    width: 60%;
+    height: 30px;
+    padding: 3px 5px 3px 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    font-size: large;
+
+}
+.unit{
+    background-color: rgb(66, 59, 59);
+    color: white;
+    height: 35px;
+    width: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    .cen-d{
+        width: 100%;
+    }
+    .input{
+        width: 80%;
+    }    
+}
+
+@media screen and (min-width: 450px) and (max-width: 700px) {
+    .cen-d{
+        width: 60%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 942px) {
+    .cen-d{
+        width: 40%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 943px) and (max-width: 1157px) {
+    .cen-d{
+        width: 40%;
+    }
+    .input{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 260px)  {
+    nav ul li a{
+        font-size: 13px;
+    }
+    #heading {
+        font-size: 25px;
+    }
+} 
+@media screen and (max-width: 217px)  {
+    nav ul li a{
+        font-size: 10px;
+    }
+    .unit {
+        display: none;
+    }
+} 
